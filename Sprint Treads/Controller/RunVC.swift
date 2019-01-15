@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  RunVC.swift
 //  Sprint Treads
 //
 //  Created by Vivek Rai on 03/11/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class RunVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
