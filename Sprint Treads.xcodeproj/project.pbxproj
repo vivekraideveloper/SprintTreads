@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8080B0AF21EF2752004A957E /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080B0AE21EF2752004A957E /* LocationVC.swift */; };
 		80CE103E218CD51F00683FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE103D218CD51F00683FF8 /* AppDelegate.swift */; };
 		80CE1040218CD51F00683FF8 /* RunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE103F218CD51F00683FF8 /* RunVC.swift */; };
 		80CE1042218CD51F00683FF8 /* LogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE1041218CD51F00683FF8 /* LogVC.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8080B0AE21EF2752004A957E /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		80CE103A218CD51F00683FF8 /* Sprint Treads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sprint Treads.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CE103D218CD51F00683FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80CE103F218CD51F00683FF8 /* RunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunVC.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				80CE1041218CD51F00683FF8 /* LogVC.swift */,
 				80CE103F218CD51F00683FF8 /* RunVC.swift */,
+				8080B0AE21EF2752004A957E /* LocationVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80CE1042218CD51F00683FF8 /* LogVC.swift in Sources */,
+				8080B0AF21EF2752004A957E /* LocationVC.swift in Sources */,
 				80CE103E218CD51F00683FF8 /* AppDelegate.swift in Sources */,
 				80CE1040218CD51F00683FF8 /* RunVC.swift in Sources */,
 			);
