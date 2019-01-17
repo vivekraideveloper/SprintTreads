@@ -8,16 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		8080B0AF21EF2752004A957E /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080B0AE21EF2752004A957E /* LocationVC.swift */; };
+		8080B0B121EF2DF3004A957E /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080B0B021EF2DF3004A957E /* CurrentRunVC.swift */; };
+		8080B0B321EF7ED8004A957E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080B0B221EF7ED8004A957E /* Extensions.swift */; };
+		8080B0B521EFA52E004A957E /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080B0B421EFA52E004A957E /* Run.swift */; };
+		8080B0B721EFAF5B004A957E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080B0B621EFAF5B004A957E /* Constants.swift */; };
+		8080B0B921EFB5D6004A957E /* LogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080B0B821EFB5D6004A957E /* LogCell.swift */; };
 		80CE103E218CD51F00683FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE103D218CD51F00683FF8 /* AppDelegate.swift */; };
 		80CE1040218CD51F00683FF8 /* RunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE103F218CD51F00683FF8 /* RunVC.swift */; };
 		80CE1042218CD51F00683FF8 /* LogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE1041218CD51F00683FF8 /* LogVC.swift */; };
 		80CE1045218CD51F00683FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CE1043218CD51F00683FF8 /* Main.storyboard */; };
 		80CE1047218CD52300683FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CE1046218CD52300683FF8 /* Assets.xcassets */; };
 		80CE104A218CD52300683FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CE1048218CD52300683FF8 /* LaunchScreen.storyboard */; };
+		80F8D9DF21F083F600B55EF3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F8D9DE21F083F600B55EF3 /* Location.swift */; };
+		80F8D9E121F088BA00B55EF3 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F8D9E021F088BA00B55EF3 /* RealmConfig.swift */; };
+		FA54203F8D12500555D0345A /* Pods_Sprint_Treads.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E6EF226CC39046B839D05E /* Pods_Sprint_Treads.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28EB2296E490896423646223 /* Pods-Sprint Treads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sprint Treads.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sprint Treads/Pods-Sprint Treads.debug.xcconfig"; sourceTree = "<group>"; };
+		5CB91DA2C5F2DA20630BF995 /* Pods-Sprint Treads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sprint Treads.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sprint Treads/Pods-Sprint Treads.release.xcconfig"; sourceTree = "<group>"; };
 		8080B0AE21EF2752004A957E /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		8080B0B021EF2DF3004A957E /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
+		8080B0B221EF7ED8004A957E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8080B0B421EFA52E004A957E /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		8080B0B621EFAF5B004A957E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8080B0B821EFB5D6004A957E /* LogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCell.swift; sourceTree = "<group>"; };
 		80CE103A218CD51F00683FF8 /* Sprint Treads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sprint Treads.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CE103D218CD51F00683FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80CE103F218CD51F00683FF8 /* RunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunVC.swift; sourceTree = "<group>"; };
@@ -26,6 +41,9 @@
 		80CE1046218CD52300683FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80CE1049218CD52300683FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80CE104B218CD52300683FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F8D9DE21F083F600B55EF3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		80F8D9E021F088BA00B55EF3 /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+		88E6EF226CC39046B839D05E /* Pods_Sprint_Treads.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sprint_Treads.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +51,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA54203F8D12500555D0345A /* Pods_Sprint_Treads.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42842A16FFF785BA9AA2C8D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88E6EF226CC39046B839D05E /* Pods_Sprint_Treads.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8093EE4F21EE529C00301D10 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +78,8 @@
 			children = (
 				80CE103C218CD51F00683FF8 /* Sprint Treads */,
 				80CE103B218CD51F00683FF8 /* Products */,
+				E71B90E933199F892C727794 /* Pods */,
+				42842A16FFF785BA9AA2C8D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +112,8 @@
 		80CE1052218CD92A00683FF8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8080B0B421EFA52E004A957E /* Run.swift */,
+				80F8D9DE21F083F600B55EF3 /* Location.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -90,6 +121,7 @@
 		80CE1053218CD93800683FF8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8080B0B821EFB5D6004A957E /* LogCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,9 +129,10 @@
 		80CE1054218CD93F00683FF8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				80CE1041218CD51F00683FF8 /* LogVC.swift */,
 				80CE103F218CD51F00683FF8 /* RunVC.swift */,
+				80CE1041218CD51F00683FF8 /* LogVC.swift */,
 				8080B0AE21EF2752004A957E /* LocationVC.swift */,
+				8080B0B021EF2DF3004A957E /* CurrentRunVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,6 +140,7 @@
 		80CE1055218CD94700683FF8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8080B0B221EF7ED8004A957E /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -114,8 +148,19 @@
 		80CE1056218CD95A00683FF8 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				8080B0B621EFAF5B004A957E /* Constants.swift */,
+				80F8D9E021F088BA00B55EF3 /* RealmConfig.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E71B90E933199F892C727794 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28EB2296E490896423646223 /* Pods-Sprint Treads.debug.xcconfig */,
+				5CB91DA2C5F2DA20630BF995 /* Pods-Sprint Treads.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80CE104E218CD52300683FF8 /* Build configuration list for PBXNativeTarget "Sprint Treads" */;
 			buildPhases = (
+				0E99FB7F0AE41CD9839786F8 /* [CP] Check Pods Manifest.lock */,
 				80CE1036218CD51F00683FF8 /* Sources */,
 				80CE1037218CD51F00683FF8 /* Frameworks */,
 				80CE1038218CD51F00683FF8 /* Resources */,
+				AA83112CD41FE02835A17090 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,15 +231,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E99FB7F0AE41CD9839786F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sprint Treads-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA83112CD41FE02835A17090 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sprint Treads/Pods-Sprint Treads-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sprint Treads/Pods-Sprint Treads-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80CE1036218CD51F00683FF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8080B0B121EF2DF3004A957E /* CurrentRunVC.swift in Sources */,
+				8080B0B321EF7ED8004A957E /* Extensions.swift in Sources */,
+				80F8D9DF21F083F600B55EF3 /* Location.swift in Sources */,
 				80CE1042218CD51F00683FF8 /* LogVC.swift in Sources */,
 				8080B0AF21EF2752004A957E /* LocationVC.swift in Sources */,
 				80CE103E218CD51F00683FF8 /* AppDelegate.swift in Sources */,
+				8080B0B521EFA52E004A957E /* Run.swift in Sources */,
 				80CE1040218CD51F00683FF8 /* RunVC.swift in Sources */,
+				80F8D9E121F088BA00B55EF3 /* RealmConfig.swift in Sources */,
+				8080B0B921EFB5D6004A957E /* LogCell.swift in Sources */,
+				8080B0B721EFAF5B004A957E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +431,7 @@
 		};
 		80CE104F218CD52300683FF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28EB2296E490896423646223 /* Pods-Sprint Treads.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -354,6 +450,7 @@
 		};
 		80CE1050218CD52300683FF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB91DA2C5F2DA20630BF995 /* Pods-Sprint Treads.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
